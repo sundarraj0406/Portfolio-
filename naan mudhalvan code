@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Product - YourStoreName</title>
+    <meta name="description" content="Find the perfect awesome product. High-quality and durable.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <a href="/" class="logo">YourStoreName</a>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="/products">Shop All</a></li>
+                <li><a href="/categories/new-arrivals">New Arrivals</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <a href="/search" class="search-icon">🔍</a>
+            <a href="/account" class="account-icon">👤</a>
+            <a href="/cart" class="cart-icon">🛒</a>
+        </div>
+    </header>
+
+    <main class="product-page-main">
+        <div class="product-details-container">
+            <section class="product-image-gallery">
+                <img src="path/to/product-main-image.jpg" alt="" class="main-image">
+                <div class="thumbnail-images">
+                    <img src="path/to/thumbnail1.jpg" alt="Awesome Product - angled view">
+                    <img src="path/to/thumbnail2.jpg" alt="Awesome Product - close-up view">
+                    <img src="path/to/thumbnail3.jpg" alt="Awesome Product - packaging">
+                </div>
+            </section>
+
+            <section class="product-info-panel">
+                <h1 class="product-title">Awesome Product Name</h1>
+                <p class="product-price">$99.99</p>
+                <div class="product-rating">
+                    <span>⭐⭐⭐⭐⭐</span>
+                    <a href="#reviews"> (12 reviews)</a>
+                </div>
+
+                <div class="product-options">
+                    <div class="color-options">
+                        <label>Color:</label>
+                        <select name="color">
+                            <option value="black">Black</option>
+                            <option value="blue">Blue</option>
+                            <option value="red">Red</option>
+                        </select>
+                    </div>
+                    <div class="size-options">
+                        <label>Size:</label>
+                        <select name="size">
+                            <option value="s">Small</option>
+                            <option value="m">Medium</option>
+                            <option value="l">Large</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button class="add-to-cart-btn">Add to Cart</button>
+
+                <article class="product-description">
+                    <h2>Product Description</h2>
+                    <p>This is a detailed description of the awesome product. It's made from high-quality materials and is designed for long-lasting use. Perfect for everyday life and special occasions.</p>
+                </article>
+            </section>
+        </div>
+
+        <section class="related-products">
+            <h2>You May Also Like</h2>
+            </section>
+
+        <section id="reviews" class="customer-reviews">
+            <h2>Customer Reviews</h2>
+            <article class="review">
+                <h3>John Doe</h3>
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>Absolutely love this product! The quality is amazing and it looks even better in person.</p>
+            </article>
+            <article class="review">
+                <h3>Jane Smith</h3>
+                <p>⭐⭐⭐⭐</p>
+                <p>Great product, but it was a bit smaller than I expected. Still happy with my purchase though.</p>
+            </article>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-columns">
+            <div class="column">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/careers">Careers</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Help</h3>
+                <ul>
+                    <li><a href="/faq">FAQ</a></li>
+                    <li><a href="/shipping">Shipping Info</a></li>
+                    <li><a href="/returns">Returns</a></li>
+                </ul>
+            </div>
+            <div class="column social-media">
+                <h3>Follow Us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2025 YourStoreName. All Rights Reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
